@@ -28,6 +28,7 @@
 let dogNames = [];
 
 //with the push() method, push a few dog names into the dogNames array
+dogNames.push('otis', 'ziggy', 'riply');
 
 
 
