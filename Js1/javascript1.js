@@ -1,4 +1,4 @@
-// Variables
+//* * Variables
 
 // var - global Scope
 // let - lexical scope
@@ -15,10 +15,43 @@
     //Code Here
 
     
-    //Functions ()
+//* * Functions ()
     
     
-    //Objects {}
+//* * Objects {}
+//  -- Objects are very similar to arrays.
+
+let dog = {}
+dog.name = "Otis"
+
+// Objects
+
+// let dog = {}
+// dog.name = "Otis";
+// dog.age = 5;
+
+let otis = {
+  name: "otis",
+  age: 5
+}
+
+console.log(otis['age'])
+console.log( otis.age )
+
+let person = {
+    name: 'sam',
+    lastName: 'lee',
+    age: 27,
+    weight: 150,
+    hair: 'brown',
+  }
+  console.log(person.weight + 'lb')
+  
+
+//dot notation
+console.log( otis.name )
+// bracket notation
+console.log( otis['name'] )
     
 //Create an array called dogNames and set it to an empty array
     let dogNames = [];
@@ -26,7 +59,7 @@
 //with the push() method, push a few dog names into the dogNames array
     dogNames.push('otis', 'ziggy', 'riply');
     
-//Loops
+//* * Loops
 
 // for loops
 
@@ -35,11 +68,12 @@ for(var i = 0; i < dogNames.length; i++) {
 }
 
 // while loops
+
 // .map()
-dogNames.map((value, index) => {
-    console.log("index:", index)
-    console.log("value:", value)
-})
+cars.map( (carName) => {
+    console.log(carName)
+  })
+
 // .filter()
 let dogs = dogNames.filter( (value, index) => {
     if(index != 0) {
@@ -47,7 +81,9 @@ let dogs = dogNames.filter( (value, index) => {
     }
 })
 console.log(dogs)
+
 // .forEach()
+
 dogNames.forEach((value, index) => {
     console.log("index:", index)
     console.log("value:", value)
@@ -59,9 +95,6 @@ let cars = ['subie', 'camaro', 'mustang5.0'];
 //   console.log(i)
 
 // }
-cars.map( (carName) => {
-  console.log(carName)
-})
 
 
 
