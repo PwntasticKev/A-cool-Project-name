@@ -16,7 +16,8 @@
 
     
 //* * Functions ()
-    
+	
+
     
 //* * Objects {}
 //  -- Objects are very similar to arrays.
@@ -59,7 +60,7 @@ console.log( otis['name'] )
 //with the push() method, push a few dog names into the dogNames array
     dogNames.push('otis', 'ziggy', 'riply');
     
-//* * Loops
+//* * Loops & Arrays
 
 // for loops
 
@@ -95,6 +96,27 @@ let cars = ['subie', 'camaro', 'mustang5.0'];
 //   console.log(i)
 
 // }
+
+// * * Arrays and objects
+
+let cars = [];
+
+let mustang = {
+  name: "Betsy Stang",
+  year: 2012,
+  color: "red",
+  vin: 1230123012
+}
+
+let camaro = {
+  name: "Betsy Maro",
+  year: 1995,
+  color: "Green",
+  vin: 128371238
+}
+
+cars.push( camaro, mustang )
+console.log( cars[0].name )
 
 
 
