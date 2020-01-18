@@ -48,6 +48,26 @@ let person = {
   }
   console.log(person.weight + 'lb')
   
+  // * * Arrays and objects // merging
+  
+  let cars = [];
+  
+  let mustang = {
+    name: "Betsy Stang",
+    year: 2012,
+    color: "red",
+    vin: 1230123012
+  }
+  
+  let camaro = {
+    name: "Betsy Maro",
+    year: 1995,
+    color: "Green",
+    vin: 128371238
+  }
+  
+  cars.push( camaro, mustang )
+  console.log( cars[0].name )
 
 //dot notation
 console.log( otis.name )
@@ -97,26 +117,6 @@ let cars = ['subie', 'camaro', 'mustang5.0'];
 
 // }
 
-// * * Arrays and objects
-
-let cars = [];
-
-let mustang = {
-  name: "Betsy Stang",
-  year: 2012,
-  color: "red",
-  vin: 1230123012
-}
-
-let camaro = {
-  name: "Betsy Maro",
-  year: 1995,
-  color: "Green",
-  vin: 128371238
-}
-
-cars.push( camaro, mustang )
-console.log( cars[0].name )
 
 
 
