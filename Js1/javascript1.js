@@ -53,8 +53,15 @@ dogNames.forEach((value, index) => {
     console.log("value:", value)
 })
 
+let cars = ['subie', 'camaro', 'mustang5.0'];
 
-//Arrays []
+// for(var i = 0; i < cars.length; i++){
+//   console.log(i)
+
+// }
+cars.map( (carName) => {
+  console.log(carName)
+})
 
 
 
