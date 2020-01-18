@@ -44,9 +44,29 @@ let person = {
     age: 27,
     weight: 150,
     hair: 'brown',
-}
-console.log(person.weight + 'lb')
-
+  }
+  console.log(person.weight + 'lb')
+  
+  // * * Arrays and objects // merging
+  
+  let cars = [];
+  
+  let mustang = {
+    name: "Betsy Stang",
+    year: 2012,
+    color: "red",
+    vin: 1230123012
+  }
+  
+  let camaro = {
+    name: "Betsy Maro",
+    year: 1995,
+    color: "Green",
+    vin: 128371238
+  }
+  
+  cars.push( camaro, mustang )
+  console.log( cars[0].name )
 
 //dot notation
 console.log( otis.name )
