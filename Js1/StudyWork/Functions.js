@@ -54,7 +54,7 @@ function getCurrentHealth(damageTaken, currentHp, headShot){
 // if headshot is false we will take normal damage
 // if the currentHp is 0 equal or less, return the string "oh dear! you are dead"
 
-//* ****s    still working on it  ********
+//* ****s    hard!!  ********
 function getCurrentHealth(currenthealth, damagetaken, headshot){
     currenthealth - damagetaken;
      for(headshot; headshot <= 0; headshot++){
