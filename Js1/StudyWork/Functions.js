@@ -5,10 +5,11 @@
 // * * call the function with two arguments:
 
 function getName(name1, name2){
-    name1 + ' ' + name2;
+    name1 + name2;
+    return `${name1} has a brother and his name is ${name2}`;
   }
-  getName('sam', 'kevin')
-  
+  getName('sam', 'kevin')//OH YEAH!
+
 //  * * return a template string while using both of the variables you used as parameters --- SEE LINK
 //  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 
@@ -64,6 +65,19 @@ const plantNeedsWater = function(day){
 plantNeedsWater('Tuesday')
 console.log(plantNeedsWater('Tuesday'))
 
+
+const logVisibleLightWaves = () => {
+    let lightWaves = 'Moonlight';
+      let region = 'The Arctic';
+    // Add if statement here:
+    if(region === 'The Arctic'){
+      let lightWaves = 'Northern Lights';
+        console.log(lightWaves)
+    }
+    console.log(lightWaves);
+  };
+  
+  logVisibleLightWaves();
 
 
 

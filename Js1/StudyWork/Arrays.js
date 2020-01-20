@@ -5,7 +5,7 @@
 let numbers = [9, 8, 7, 6 ,5];
 let total;
 //loop over each item in array and add them up.
-let numbers = [221,332,4343,254,53,66];
+let numbers = [221, 332, 4343, 254, 53, 66];
 var total = 0;
 
 for(var i = 0; i < numbers.length; i++){
@@ -33,7 +33,6 @@ var foundPlayers = 0;
 // if the map is "office" and the foundPlayers variable is 10 return the string "ACCEPT"
 //CODE HERE
 
-
 function queReady(maps, foundPlayers){
   for(foundPlayers; foundPlayers <= 10; foundPlayers++){
     if(foundPlayers === 10){
@@ -46,3 +45,17 @@ function queReady(maps, foundPlayers){
   }
 }
 queReady(maps, foundPlayers)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
