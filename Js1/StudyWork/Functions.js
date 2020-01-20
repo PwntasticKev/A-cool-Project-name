@@ -47,10 +47,23 @@ function getCar()
 
 //create a function called getCurrentHealth that takes three parameters, damageTaken, currentHp and headshot ( headshot will be passed a boolean )
 
+function getCurrentHealth(damageTaken, currentHp, headShot){
+
+}
 // return the currentHp minus damageTaken times 2 if headshot is true. 
 // if headshot is false we will take normal damage
 // if the currentHp is 0 equal or less, return the string "oh dear! you are dead"
 
+//* ****s    still working on it  ********
+function getCurrentHealth(currenthealth, damagetaken, headshot){
+    currenthealth - damagetaken;
+     for(headshot; headshot <= 0; headshot++){
+       if (headshot <= 0){
+         return 'your not dead yet';
+       }
+     }
+ }
+ getCurrentHealth(100, 45, false)
 
 //**********Writing out Functions over and over to get them embedded */
 
