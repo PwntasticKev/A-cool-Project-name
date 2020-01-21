@@ -54,15 +54,15 @@ function getCurrentHealth(damageTaken, currentHp, headShot){
 // if headshot is false we will take normal damage
 // if the currentHp is 0 equal or less, return the string "oh dear! you are dead"
 
-//* ****s    hard!!  ********
-function getCurrentHealth(currenthealth, damagetaken, headshot){
-	//
-    currenthealth - damagetaken; // this should run only if its not a headshot
-     for(headshot; headshot <= 0; headshot++){ // remove for loop. we are not looping through any array
-       if (headshot <= 0){ // should be if headshot == true then currentHealth - damageTaken * 2.
-         return 'your not dead yet'; // return this string only if your health is <= 0
-       }
-	 }
+//*       soooo lost....
+function healthPoints(currenthealth, damagetaken, headshot){
+  if( headshot === false)
+    return currenthealth - damagetaken;
+            
+}
+healthPoints(100, 66, true)
+	
+
 	 //if no headshot
 	 //else if headshot
 	 // at the end we need to check the currentHealth to see if its <= 0.
