@@ -87,8 +87,6 @@ for(var i = 0; i < dogNames.length; i++) {
 	console.log(i)
 }
 
-// while loops
-
 // .map()
 cars.map( (carName) => {
 	console.log(carName)

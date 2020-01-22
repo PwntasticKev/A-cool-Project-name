@@ -29,7 +29,9 @@ let carObjects = ['mustang', 'subaru', 'honda', 'camaro', 'toyota'];
 
 // Create a function called getCar
 
-function getCar()
+function getCar(){
+  for
+}
 
 // getCar will loop through each car in the cars array by using the .map() method
 
