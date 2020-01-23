@@ -57,18 +57,14 @@ function getCurrentHealth(damageTaken, currentHp, headShot){
 // if the currentHp is 0 equal or less, return the string "oh dear! you are dead"
 
 //*       soooo lost....
-function healthPoints(currenthealth, damagetaken, headshot){
-  if( headshot === false)
-    return currenthealth - damagetaken;
-            
-}
-healthPoints(100, 66, true)
-	
-
-	 //if no headshot
-	 //else if headshot
-	 // at the end we need to check the currentHealth to see if its <= 0.
-
+function getCurrentHealth(currentHealth, damageTaken, headshot){
+    // We have a getCurrentHealth function.
+    // we start with 100 but need to see how much damage has been done.
+   // lets first check if there has been a headshot. if it is a headshot we want our health to be subtracked the damage multipled by 2.
+   // else if headshot is false we want normal damage to be taken. so... currentHealth - damageTaken
+   // now that these have run, we need to check if the player is still alive. 
+   // so if the currentHp ends up being 0 or less than 0. then we will return the string "Oh dear! You are dead!"
+   
  }
  getCurrentHealth(100, 45, false)
 
