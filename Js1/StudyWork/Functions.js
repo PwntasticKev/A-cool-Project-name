@@ -47,17 +47,6 @@ function getCar(){
 
 // ! ULTRA CREDIT
 
-//create a function called getCurrentHealth that takes three parameters, damageTaken, currentHp and headshot ( headshot will be passed a boolean )
-
-function getCurrentHealth(damageTaken, currentHp, headShot){
-
-}
-// return the currentHp minus damageTaken times 2 if headshot is true. 
-// if headshot is false we will take normal damage
-// if the currentHp is 0 equal or less, return the string "oh dear! you are dead"
-
-//*       soooo lost....
-function getCurrentHealth(currentHealth, damageTaken, headshot){
     // We have a getCurrentHealth function.
     // we start with 100 but need to see how much damage has been done.
    // lets first check if there has been a headshot. if it is a headshot we want our health to be subtracked the damage multipled by 2.
@@ -65,8 +54,20 @@ function getCurrentHealth(currentHealth, damageTaken, headshot){
    // now that these have run, we need to check if the player is still alive. 
    // so if the currentHp ends up being 0 or less than 0. then we will return the string "Oh dear! You are dead!"
    
- }
- getCurrentHealth(100, 45, false)
+   //*** alright i think i got it! */
+   //
+   
+   function playerHp(currenthealth, damagetaken, headshot){
+    if (headshot === true){
+      currenthealth - damagetaken * 2;
+       }
+    else if (currenthealth - damagetaken){
+      return (currenthealth - damagetaken);
+       }
+    else if (currenthealth <= 0);
+      return 'You got 1 Tapped!!'
+    }
+  playerHp(100, 66, true)
 
 //**********Writing out Functions over and over to get them embedded */
 
