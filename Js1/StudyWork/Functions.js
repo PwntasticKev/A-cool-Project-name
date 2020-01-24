@@ -54,7 +54,7 @@ function getCar(){
    // now that these have run, we need to check if the player is still alive. 
    // so if the currentHp ends up being 0 or less than 0. then we will return the string "Oh dear! You are dead!"
    
-   //*** alright i think i got it! */
+   //*** alright i think i got it!?? */
    //
    
    function playerHp(currenthealth, damagetaken, headshot){
