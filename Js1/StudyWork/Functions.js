@@ -59,7 +59,7 @@ function getCar(){
    
    function playerHp(currenthealth, damagetaken, headshot){
     if (headshot === true){
-      currenthealth - damagetaken * 2;
+      currenthealth - damagetaken * 2; // how is this line needed??
        }
     else if (currenthealth - damagetaken){
       return (currenthealth - damagetaken);
@@ -69,32 +69,22 @@ function getCar(){
     }
   playerHp(100, 66, true)
 
+  //*****
+  
+  function playerHp(currenthealth, damagetaken, headshot){
+    if (headshot === true){
+    //
+       }
+    else if (currenthealth - damagetaken){
+      return (currenthealth - damagetaken);
+       }
+    else if (currenthealth - damagetaken <= 0);
+      return 'You got 1 Tapped!!'
+    }
+  playerHp(100, 67, false)
+  
 //**********Writing out Functions over and over to get them embedded */
 
-const plantNeedsWater = function(day){
-  if(day === 'Wednesday'){
-    return true;
-  }
-  else{
-    return false
-  }
-}
-plantNeedsWater('Tuesday')
-console.log(plantNeedsWater('Tuesday'))
-
-
-const logVisibleLightWaves = () => {
-    let lightWaves = 'Moonlight';
-      let region = 'The Arctic';
-    // Add if statement here:
-    if(region === 'The Arctic'){
-      let lightWaves = 'Northern Lights';
-        console.log(lightWaves)
-    }
-    console.log(lightWaves);
-  };
-  
-  logVisibleLightWaves();
 
 
 
